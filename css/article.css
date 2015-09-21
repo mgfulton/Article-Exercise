@@ -1,0 +1,64 @@
+h1 {
+	font-family: Georgia;
+	font-weight: regular;
+	font-size: 1.5em;
+	color: #000000;
+	text-align: center;
+
+	margin-top: 100px;
+	margin-bottom: 50px;
+	border-top: 1px #b0b0b0 solid;
+	border-bottom: 1px #b0b0b0 solid;
+	padding-top: 20px;
+	padding-bottom: 22px;
+}
+
+#container {
+	width: 550px;
+	margin: auto;
+}
+
+.main {
+	font-family: Georgia;
+	font-size: 1em;
+	color: #525252;
+	line-height: 1.5em;
+	letter-spacing: 0em;
+	word-spacing: 0em;
+	text-align: left;
+}
+
+.main + .main{
+	text-indent:1.5em;
+}
+
+.main:last-child {
+	margin-bottom: 160px;
+	}
+
+.italic {
+	font-style: italic;
+}
+
+.images{
+	margin-right: auto;
+	margin-left: auto;
+	vertical-align: middle;
+	border-top: 1px #b0b0b0 solid;
+	border-bottom: 1px #b0b0b0 solid;
+	padding-top: 10px;
+	padding-bottom: 12px;
+
+}
+
+.arrow-up {
+	width: 0px; 
+	height: 10px; 
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+	border-bottom: 60px solid black;
+	vertical-align: right;
+	padding-top: 20px;
+
+	
+}
